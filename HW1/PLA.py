@@ -54,6 +54,8 @@ def getRandomPoints(N, seed=None):
 
 
 def plotMLN(P, D, A, g):
+    """
+    """
     f = plt.figure()
     ax = plt.axes([-1, -1, 10, 10])
     plt.scatter(P[:,0], P[:,1], c = D)
